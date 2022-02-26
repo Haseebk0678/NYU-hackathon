@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.BackgroundImage{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.Head{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Operation{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Operation button{
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+  background-color: gray;
+  color: white;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+}
+
+
+.Operation button:hover {
+  background-color: white; /* Green */
+  color: black;
+  border: black solid;
+}
